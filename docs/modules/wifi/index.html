@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.128.2">
     <meta name="description" content="">
 
 
@@ -12,22 +12,22 @@
     <title>WiFi :: bettercap</title>
 
     
-    <link href="/css/nucleus.css?1618232426" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1618232426" rel="stylesheet">
-    <link href="/css/hybrid.css?1618232426" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1618232426" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1618232426" rel="stylesheet">
-    <link href="/css/auto-complete.css?1618232426" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1618232426" rel="stylesheet">
-    <link href="/css/theme.css?1618232426" rel="stylesheet">
-    <link href="/css/tabs.css?1618232426" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1618232426" rel="stylesheet">
+    <link href="/css/nucleus.css?1726565315" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1726565315" rel="stylesheet">
+    <link href="/css/hybrid.css?1726565315" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1726565315" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1726565315" rel="stylesheet">
+    <link href="/css/auto-complete.css?1726565315" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1726565315" rel="stylesheet">
+    <link href="/css/theme.css?1726565315" rel="stylesheet">
+    <link href="/css/tabs.css?1726565315" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1726565315" rel="stylesheet">
     
-    <link href="/css/theme-green.css?1618232426" rel="stylesheet">
+    <link href="/css/theme-green.css?1726565315" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1618232426"></script>
+    <script src="/js/jquery-3.3.1.min.js?1726565315"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -120,6 +120,11 @@ a.highlight span.copy-to-clipboard {
 </a>
 </center>
 
+<p align="center">
+  <a href="https://discord.gg/btZpkp45gQ" target="_blank" title="Join our community!">
+    <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/btZpkp45gQ"/>
+  </a>
+</p>
     </div>
     
         <div class="searchbox">
@@ -128,14 +133,14 @@ a.highlight span.copy-to-clipboard {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1618232426"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1618232426"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1726565315"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1726565315"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/bettercap.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1618232426"></script>
+<script type="text/javascript" src="/js/search.js?1726565315"></script>
 
     
   </div>
@@ -579,6 +584,32 @@ a.highlight span.copy-to-clipboard {
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/modules/core/graph/" title="graph" class="dd-item
+        
+        
+        
+        ">
+      <a href="/modules/core/graph/">
+          graph
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
         
         </ul>
       
@@ -624,7 +655,7 @@ a.highlight span.copy-to-clipboard {
   
     
     <li data-nav-id="/modules/wifi/" title="WiFi" class="dd-item
-        parent
+        
         active
         
         ">
@@ -656,6 +687,32 @@ a.highlight span.copy-to-clipboard {
         ">
       <a href="/modules/hid/">
           HID on 2.4Ghz
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/modules/canbus/" title="CAN-bus" class="dd-item
+        
+        
+        
+        ">
+      <a href="/modules/canbus/">
+          CAN-bus
           
       </a>
       
@@ -1406,10 +1463,6 @@ a.highlight span.copy-to-clipboard {
               </li>
           
               <li>
-                  <a class="padding" href="https://travis-ci.org/bettercap/bettercap"><img alt="Travis" src="https://img.shields.io/travis/bettercap/bettercap/master.svg?style=flat-square"></a>
-              </li>
-          
-              <li>
                   <a class="padding" href="https://goreportcard.com/report/github.com/bettercap/bettercap"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/bettercap/bettercap?style=flat-square&fuckgithubcache=1"></a>
               </li>
           
@@ -1531,6 +1584,7 @@ a.highlight span.copy-to-clipboard {
 <li>perform <a href="https://www.evilsocket.net/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/">RSN PMKID based</a> clientless attacks on vulnerable access points</li>
 <li><em>automatically sniff and save key material</em> either from complete WPA/WPA2 handshakes or PMKID packets.</li>
 <li>send spoofed management beacons to create fake access points or fake client probes.</li>
+<li>perform authentication wordlist attacks.</li>
 </ul>
 
 <div class="notices note" ><p>The interface only needs to support monitor mode and packet injection, it&rsquo;ll be bettercap itself to switch it to the right mode, just make sure there aren&rsquo;t other processes using the same wifi interface.</p>
@@ -1547,6 +1601,10 @@ a.highlight span.copy-to-clipboard {
 <p>Start 802.11 wireless base stations discovery and handshakes/PMKID capture.</p>
 <h4 id="wifirecon-off"><code>wifi.recon off</code></h4>
 <p>Stop 802.11 wireless base stations discovery.</p>
+<h4 id="wifibruteforce-on"><code>wifi.bruteforce on</code></h4>
+<p>Attempts to bruteforce WiFi authentication (see <strong>bruteforce</strong> specific parameters).</p>
+<h4 id="wifibruteforce-off"><code>wifi.bruteforce off</code></h4>
+<p>Stop previously started bruteforcing.</p>
 <h4 id="wificlear"><code>wifi.clear</code></h4>
 <p>Clear all access points collected by the WiFi discovery module.</p>
 <h4 id="wifirecon-bssid"><code>wifi.recon BSSID</code></h4>
@@ -1696,25 +1754,73 @@ a.highlight span.copy-to-clipboard {
 </tr>
 </tbody>
 </table>
+<h4 id="bruteforce-specific-parameters">Bruteforce specific parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>wifi.bruteforce.stop_at_first</code></td>
+<td><code>true</code></td>
+<td>Stop bruteforcing after the first successful attempt.</td>
+</tr>
+<tr>
+<td><code>wifi.bruteforce.target</code></td>
+<td></td>
+<td>One or more comma separated targets to bruteforce as ESSID or BSSID. Leave empty to bruteforce all visibile access points.</td>
+</tr>
+<tr>
+<td><code>wifi.bruteforce.timeout</code></td>
+<td><code>15</code></td>
+<td>Timeout in seconds for each association attempt.</td>
+</tr>
+<tr>
+<td><code>wifi.bruteforce.wide</code></td>
+<td><code>false</code></td>
+<td>Attempt a password for each access point before moving to the next one.</td>
+</tr>
+<tr>
+<td><code>wifi.bruteforce.wordlist</code></td>
+<td><code>/usr/share/dict/words</code></td>
+<td>Wordlist file to use for bruteforcing.</td>
+</tr>
+<tr>
+<td><code>wifi.bruteforce.workers</code></td>
+<td><code>1</code></td>
+<td>How many parallel workers. WARNING: Some routers will ban multiple concurrent attempts.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="examples">Examples</h3>
 <p>Run bettercap using <code>eth0</code> as the main interface but start the wifi module on <code>wlan0</code> instead:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo bettercap -iface eth0 -eval <span style="color:#e6db74">&#34;set wifi.interface wlan0; wifi.recon on&#34;</span>
-</code></pre></div><p>Keep deauthing clients from the access point with BSSID <code>DE:AD:BE:EF:DE:AD</code> every five seconds:</p>
-<pre><code>&gt; set ticker.period 5; set ticker.commands &quot;wifi.deauth DE:AD:BE:EF:DE:AD&quot;; ticker on
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo bettercap -iface eth0 -eval <span style="color:#e6db74">&#34;set wifi.interface wlan0; wifi.recon on&#34;</span>
+</span></span></code></pre></div><p>Keep deauthing clients from the access point with BSSID <code>DE:AD:BE:EF:DE:AD</code> every five seconds:</p>
+<pre tabindex="0"><code>&gt; set ticker.period 5; set ticker.commands &#34;wifi.deauth DE:AD:BE:EF:DE:AD&#34;; ticker on
 </code></pre><p>Use the <a href="/modules/core/ticker/">ticker</a> and <code>wifi.recon</code> modules to create a WiFi scanner (performing channel hopping on every supported frequency):</p>
-<pre><code>&gt; set ticker.commands &quot;clear; wifi.show&quot;; wifi.recon on; ticker on
+<pre tabindex="0"><code>&gt; set ticker.commands &#34;clear; wifi.show&#34;; wifi.recon on; ticker on
 </code></pre><p>Sort by BSSID and filter for BSSIDs starting with <code>F4</code>:</p>
-<pre><code>&gt; set wifi.show.sort bssid asc
+<pre tabindex="0"><code>&gt; set wifi.show.sort bssid asc
 &gt; set wifi.show.filter ^F4
 &gt; wifi.show
 </code></pre><p>Only recon on channels 1, 2 and 3:</p>
-<pre><code>&gt; wifi.recon.channel 1,2,3; wifi.recon on
+<pre tabindex="0"><code>&gt; wifi.recon.channel 1,2,3; wifi.recon on
 </code></pre><p>Will send management beacons as the fake access point &ldquo;Banana&rdquo; with BSSID <code>DE:AD:BE:EF:DE:AD</code> on channel 5 without encryption:</p>
-<pre><code>&gt; set wifi.ap.ssid Banana
+<pre tabindex="0"><code>&gt; set wifi.ap.ssid Banana
 &gt; set wifi.ap.bssid DE:AD:BE:EF:DE:AD
 &gt; set wifi.ap.channel 5
 &gt; set wifi.ap.encryption false
 &gt; wifi.recon on; wifi.ap
+</code></pre><p>Bruteforce using a wordlist:</p>
+<pre tabindex="0"><code>&gt; set wifi.interface en0
+&gt; set wifi.bruteforce.target TargetRouter
+&gt; set wifi.bruteforce.wordlist /path/to/your/wordlist.txt
+&gt; set wifi.bruteforce.stop_at_first true
+&gt; wifi.bruteforce on
 </code></pre>
 
 
@@ -2013,6 +2119,22 @@ a.highlight span.copy-to-clipboard {
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -2056,6 +2178,22 @@ a.highlight span.copy-to-clipboard {
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -2503,19 +2641,19 @@ a.highlight span.copy-to-clipboard {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1618232426"></script>
-    <script src="/js/perfect-scrollbar.min.js?1618232426"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1618232426"></script>
-    <script src="/js/jquery.sticky.js?1618232426"></script>
-    <script src="/js/featherlight.min.js?1618232426"></script>
-    <script src="/js/highlight.pack.js?1618232426"></script>
+    <script src="/js/clipboard.min.js?1726565315"></script>
+    <script src="/js/perfect-scrollbar.min.js?1726565315"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1726565315"></script>
+    <script src="/js/jquery.sticky.js?1726565315"></script>
+    <script src="/js/featherlight.min.js?1726565315"></script>
+    <script src="/js/highlight.pack.js?1726565315"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1618232426"></script>
-    <script src="/js/learn.js?1618232426"></script>
-    <script src="/js/hugo-learn.js?1618232426"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1726565315"></script>
+    <script src="/js/learn.js?1726565315"></script>
+    <script src="/js/hugo-learn.js?1726565315"></script>
     
         
-            <script src="/mermaid/mermaid.js?1618232426"></script>
+            <script src="/mermaid/mermaid.js?1726565315"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
